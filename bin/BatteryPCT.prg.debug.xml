@@ -10,15 +10,15 @@
 <entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="25" pc="268435584" symbol="onUpdate"/>
 <entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="26" pc="268435620" symbol="onUpdate"/>
 <entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="27" pc="268435637" symbol="onUpdate"/>
-<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="29" pc="268435653" symbol="onUpdate"/>
-<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="31" pc="268435707" symbol="onUpdate"/>
-<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="32" pc="268435718" symbol="onUpdate"/>
-<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="35" pc="268435782" symbol="onUpdate"/>
-<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="37" pc="268435821" symbol="onUpdate"/>
-<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="40" pc="268435857" symbol="onUpdate"/>
-<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTApp.mc" lineNum="15" pc="268435944" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268436038" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268436025" symbol="&lt;init&gt;"/>
+<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="29" pc="268435647" symbol="onUpdate"/>
+<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="31" pc="268435701" symbol="onUpdate"/>
+<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="32" pc="268435712" symbol="onUpdate"/>
+<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="35" pc="268435776" symbol="onUpdate"/>
+<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="37" pc="268435815" symbol="onUpdate"/>
+<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTView.mc" lineNum="40" pc="268435851" symbol="onUpdate"/>
+<entry filename="/Users/Dan/CloudStation/ConnectIQ_Projects/samples/ActivityTracking/BatteryPCT/source/BatteryPCTApp.mc" lineNum="15" pc="268435938" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268436032" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268436019" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>

@@ -24,14 +24,14 @@ class BatteryPCTView extends Ui.View {
         dc.fillRectangle(0, 0, width, height);
         dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLACK);
         var stats = Sys.getSystemStats();
-      	var battery = stats.battery * 100;
+      	var battery = stats.battery;
       	//.toFloat();
       	dc.drawText(10, height/4, Gfx.FONT_LARGE, "Battery Level:", Gfx.TEXT_JUSTIFY_LEFT);
       	
-      	if (battery >= .50){
+      	if (battery >= 50){
       		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
   		}
-      	else if ( (battery >= .25) && (battery < .50)){
+      	else if ( (battery >= 25) && (battery < 50)){
       		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_BLACK);
       	}else{
       		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
