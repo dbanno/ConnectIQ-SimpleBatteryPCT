@@ -6,7 +6,7 @@ class BatteryPCTView extends Ui.View {
 
     //! Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
+        //setLayout(Rez.Layouts.MainLayout(dc));
     }
 
     //! Restore the state of the app and prepare the view to be shown
@@ -24,8 +24,10 @@ class BatteryPCTView extends Ui.View {
         dc.fillRectangle(0, 0, width, height);
         dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLACK);
         var stats = Sys.getSystemStats();
-      	var battery = stats.battery.toFloat();
+      	var battery = stats.battery * 100;
+      	//.toFloat();
       	dc.drawText(10, height/4, Gfx.FONT_LARGE, "Battery Level:", Gfx.TEXT_JUSTIFY_LEFT);
+      	
       	if (battery >= .50){
       		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
   		}
@@ -34,7 +36,8 @@ class BatteryPCTView extends Ui.View {
       	}else{
       		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
   		}
-        dc.drawText(width/2, height/2, Gfx.FONT_LARGE, (battery * 100) + "%", Gfx.TEXT_JUSTIFY_CENTER);
+  		
+        dc.drawText(width/2, height/2, Gfx.FONT_NUMBER_HOT, battery.format("%4.2f") + "%", Gfx.TEXT_JUSTIFY_CENTER);
       
     }
 
